@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+Array [
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "name": "•",
+                    "role": "text",
+                  },
+                ],
+                "name": "•",
+                "role": "ListMarker",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "name": "wololo",
+                    "role": "text",
+                  },
+                ],
+                "name": "wololo",
+                "role": "link",
+              },
+            ],
+            "name": "",
+            "role": "listitem",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "name": "•",
+                    "role": "text",
+                  },
+                ],
+                "name": "•",
+                "role": "ListMarker",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "name": "wololo",
+                    "role": "text",
+                  },
+                ],
+                "name": "wololo",
+                "role": "link",
+              },
+            ],
+            "name": "",
+            "role": "listitem",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "name": "•",
+                    "role": "text",
+                  },
+                ],
+                "name": "•",
+                "role": "ListMarker",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "name": "wololo",
+                    "role": "text",
+                  },
+                ],
+                "name": "wololo",
+                "role": "link",
+              },
+            ],
+            "name": "",
+            "role": "listitem",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "name": "•",
+                    "role": "text",
+                  },
+                ],
+                "name": "•",
+                "role": "ListMarker",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "name": "wololo",
+                    "role": "text",
+                  },
+                ],
+                "name": "wololo",
+                "role": "link",
+              },
+            ],
+            "name": "",
+            "role": "listitem",
+          },
+        ],
+        "name": "",
+        "role": "list",
+      },
+    ],
+    "name": "Navigation",
+    "role": "region",
+  },
+]
+`;

@@ -1,6 +1,6 @@
-const puppeteer = require("puppeteer");
+import puppeteer from "puppeteer";
 
-const harness = content => `
+const harness = (content: string) => `
 <!DOCTYPE html>
 <html>
   <body>
@@ -8,7 +8,7 @@ const harness = content => `
   </body>
 </html>`;
 
-const main = async content => {
+const main = async (content: string) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.setContent(harness(content));
@@ -20,4 +20,4 @@ const main = async content => {
   return snapshot.children[0].children;
 };
 
-module.exports = main;
+export default main;
