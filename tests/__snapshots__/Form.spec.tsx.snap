@@ -1,0 +1,657 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form flat snapshot to make sense 1`] = `
+Array [
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "name": "Full name",
+                "role": "text",
+              },
+            ],
+            "name": "",
+            "role": "Label",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "name": "",
+                "role": "generic",
+              },
+            ],
+            "name": "Full name",
+            "role": "textbox",
+          },
+        ],
+        "name": "",
+        "role": "generic",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "name": "Biography",
+                "role": "text",
+              },
+            ],
+            "name": "",
+            "role": "Label",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "name": "",
+                "role": "generic",
+              },
+            ],
+            "multiline": true,
+            "name": "Biography",
+            "role": "textbox",
+          },
+        ],
+        "name": "",
+        "role": "generic",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "name": "Planet",
+                "role": "text",
+              },
+            ],
+            "name": "",
+            "role": "Label",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "name": "Earth",
+                    "role": "text",
+                  },
+                ],
+                "name": "",
+                "role": "generic",
+              },
+            ],
+            "name": "Planet",
+            "readonly": true,
+            "role": "textbox",
+            "value": "Earth",
+          },
+        ],
+        "name": "",
+        "role": "generic",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "name": "Coupon",
+                "role": "text",
+              },
+            ],
+            "name": "",
+            "role": "Label",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "name": "Not available",
+                    "role": "text",
+                  },
+                ],
+                "name": "",
+                "role": "generic",
+              },
+            ],
+            "disabled": true,
+            "name": "Coupon",
+            "role": "textbox",
+            "value": "Not available",
+          },
+        ],
+        "name": "",
+        "role": "generic",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "name": "Image",
+                "role": "text",
+              },
+            ],
+            "name": "",
+            "role": "Label",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "name": "Choose File",
+                    "role": "text",
+                  },
+                ],
+                "name": "Choose File",
+                "role": "button",
+              },
+            ],
+            "name": "Image",
+            "role": "button",
+            "value": "No file chosen",
+          },
+        ],
+        "name": "",
+        "role": "generic",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "name": "Gender",
+                "role": "text",
+              },
+            ],
+            "name": "",
+            "role": "Legend",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "checked": false,
+                "name": "Male",
+                "role": "radio",
+              },
+            ],
+            "name": "",
+            "role": "generic",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "checked": false,
+                "name": "Female",
+                "role": "radio",
+              },
+            ],
+            "name": "",
+            "role": "generic",
+          },
+        ],
+        "name": "Gender",
+        "role": "group",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "name": "Hobbies",
+                "role": "text",
+              },
+            ],
+            "name": "",
+            "role": "Legend",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "checked": false,
+                "name": "Hiking",
+                "role": "checkbox",
+              },
+            ],
+            "name": "",
+            "role": "generic",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "checked": false,
+                "name": "Dancing",
+                "role": "checkbox",
+              },
+            ],
+            "name": "",
+            "role": "generic",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "checked": false,
+                "name": "Gardening",
+                "role": "checkbox",
+              },
+            ],
+            "name": "",
+            "role": "generic",
+          },
+        ],
+        "name": "Hobbies",
+        "role": "group",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "name": "Age Group",
+                "role": "text",
+              },
+            ],
+            "name": "",
+            "role": "Label",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "name": "0 to 9 Years",
+                    "role": "menuitem",
+                    "selected": true,
+                  },
+                  Object {
+                    "name": "10 to 19 Years",
+                    "role": "menuitem",
+                  },
+                  Object {
+                    "name": "20 to 29 Years",
+                    "role": "menuitem",
+                  },
+                  Object {
+                    "name": "30 to 39 Years",
+                    "role": "menuitem",
+                  },
+                  Object {
+                    "name": "40 to 49 Years",
+                    "role": "menuitem",
+                  },
+                  Object {
+                    "name": "50 to 59 Years",
+                    "role": "menuitem",
+                  },
+                  Object {
+                    "name": "60 to 69 Years",
+                    "role": "menuitem",
+                  },
+                  Object {
+                    "name": "70 to 79 Years",
+                    "role": "menuitem",
+                  },
+                  Object {
+                    "name": "80 to 89 Years",
+                    "role": "menuitem",
+                  },
+                  Object {
+                    "name": "90 to 99 Years",
+                    "role": "menuitem",
+                  },
+                ],
+                "role": "MenuListPopup",
+              },
+            ],
+            "name": "Age Group",
+            "role": "combobox",
+            "value": "0 to 9 Years",
+          },
+        ],
+        "name": "",
+        "role": "generic",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "name": "Idol",
+                "role": "text",
+              },
+            ],
+            "name": "",
+            "role": "Label",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "name": "Michael Jackson",
+                "role": "option",
+              },
+              Object {
+                "name": "Jesus",
+                "role": "option",
+              },
+              Object {
+                "name": "Mahatma Gandhi",
+                "role": "option",
+              },
+              Object {
+                "name": "John Doe",
+                "role": "option",
+              },
+            ],
+            "name": "Idol",
+            "role": "listbox",
+          },
+        ],
+        "name": "",
+        "role": "generic",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "name": "Interests",
+                "role": "text",
+              },
+            ],
+            "name": "",
+            "role": "Label",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "name": "Readings",
+                "role": "option",
+              },
+              Object {
+                "name": "Cinemas",
+                "role": "option",
+              },
+              Object {
+                "name": "Theaters",
+                "role": "option",
+              },
+              Object {
+                "name": "Operas",
+                "role": "option",
+              },
+              Object {
+                "name": "Concerts",
+                "role": "option",
+              },
+            ],
+            "multiselectable": true,
+            "name": "Interests",
+            "role": "listbox",
+          },
+        ],
+        "name": "",
+        "role": "generic",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "name": "Favourite Car",
+                "role": "text",
+              },
+            ],
+            "name": "",
+            "role": "Label",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "name": "Volvo",
+                    "role": "menuitem",
+                    "selected": true,
+                  },
+                  Object {
+                    "name": "Saab",
+                    "role": "menuitem",
+                  },
+                  Object {
+                    "name": "Mercedes",
+                    "role": "menuitem",
+                  },
+                  Object {
+                    "name": "Audi",
+                    "role": "menuitem",
+                  },
+                ],
+                "role": "MenuListPopup",
+              },
+            ],
+            "name": "Favourite Car",
+            "role": "combobox",
+            "value": "Volvo",
+          },
+        ],
+        "name": "",
+        "role": "generic",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "name": "Favourite Dish",
+                "role": "text",
+              },
+            ],
+            "name": "",
+            "role": "Label",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "name": "Vegetarian",
+                        "role": "text",
+                      },
+                    ],
+                    "name": "Vegetarian",
+                    "role": "group",
+                  },
+                  Object {
+                    "name": "Green Salad",
+                    "role": "option",
+                  },
+                  Object {
+                    "name": "French Fries",
+                    "role": "option",
+                  },
+                ],
+                "name": "",
+                "role": "generic",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "name": "Carnivorous",
+                        "role": "text",
+                      },
+                    ],
+                    "name": "Carnivorous",
+                    "role": "group",
+                  },
+                  Object {
+                    "name": "Big Mac",
+                    "role": "option",
+                  },
+                  Object {
+                    "name": "Roast Beef",
+                    "role": "option",
+                  },
+                ],
+                "name": "",
+                "role": "generic",
+              },
+            ],
+            "name": "Favourite Dish",
+            "role": "listbox",
+          },
+        ],
+        "name": "",
+        "role": "generic",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "name": "Public transports",
+                "role": "text",
+              },
+            ],
+            "name": "",
+            "role": "Label",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "name": "Ground",
+                        "role": "text",
+                      },
+                    ],
+                    "name": "Ground",
+                    "role": "group",
+                  },
+                  Object {
+                    "name": "Train",
+                    "role": "option",
+                  },
+                  Object {
+                    "name": "Bus",
+                    "role": "option",
+                  },
+                ],
+                "name": "",
+                "role": "generic",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "name": "Water",
+                        "role": "text",
+                      },
+                    ],
+                    "name": "Water",
+                    "role": "group",
+                  },
+                  Object {
+                    "name": "Ship",
+                    "role": "option",
+                  },
+                  Object {
+                    "name": "Submarine",
+                    "role": "option",
+                  },
+                ],
+                "name": "",
+                "role": "generic",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "name": "Air",
+                        "role": "text",
+                      },
+                    ],
+                    "name": "Air",
+                    "role": "group",
+                  },
+                  Object {
+                    "name": "Plane",
+                    "role": "option",
+                  },
+                  Object {
+                    "name": "Cable Car",
+                    "role": "option",
+                  },
+                ],
+                "name": "",
+                "role": "generic",
+              },
+            ],
+            "multiselectable": true,
+            "name": "Public transports",
+            "role": "listbox",
+          },
+        ],
+        "name": "",
+        "role": "generic",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "checked": false,
+            "name": "I accept the terms and conditions",
+            "role": "checkbox",
+          },
+        ],
+        "name": "",
+        "role": "generic",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "name": "Register",
+                "role": "text",
+              },
+            ],
+            "name": "Register",
+            "role": "button",
+          },
+        ],
+        "name": "",
+        "role": "generic",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "name": "Cancel",
+                "role": "text",
+              },
+            ],
+            "disabled": true,
+            "name": "Cancel",
+            "role": "button",
+          },
+        ],
+        "name": "",
+        "role": "generic",
+      },
+    ],
+    "name": "",
+    "role": "form",
+  },
+]
+`;
